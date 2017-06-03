@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'yojo-font';
+    src: url('../fonts/yojo.woff') format('woff'),
+         url('../fonts/yojo.ttf') format('truetype');
+}
+
+#blackboard {
+    font-family: 'yojo-font';
+    color: #fff;
+    background-color: #114400;
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    border: 9px solid #a60;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px #666, 2px 2px 2px #111 inset;
+    text-shadow: 0px 0px 2px #000;
+    line-height: 1.9;
+
+    clear: both;
+    -moz-columns: 1;
+    -webkit-columns: 1;
+    -ms-columns: 1;
+    columns: 1;
+}
+
+  #blackboard h1 {
+      color: yellow;
+  }
+
+.point {
+    color: #ffb1b3;
+    font-weight: bold;
+    border: 3px solid #ffb1b3;
+}
+
+.center {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+}
+
+.box .leftbox {
+    float: left;
+    width: 50%;
+}
+
+.box .rightbox {
+    float: right;
+    width: 50%;
+}
